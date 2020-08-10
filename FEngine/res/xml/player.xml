@@ -1,0 +1,8 @@
+<player>
+	<imagefile path="res/images/player.png">
+		<subpicture left="0" top="0" right="110" bottom="110" id="8"/>
+		<subpicture left="111" top="0.0" right="221" bottom="110" id="9"/>
+		<subpicture left="0" top="111" right="111" bottom="221" id="10"/>
+		<subpicture left="111" top="111" right="221" bottom="221" id="11"/>
+    </imagefile>
+ </player>

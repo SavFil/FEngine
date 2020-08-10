@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Textures">
+      <UniqueIdentifier>{1c9d8e28-84ce-4e20-b17c-9bb0f784c28c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\IsometricEngine">
+      <UniqueIdentifier>{3c4cb75b-9125-4691-a0ef-e5f64b1c6d41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Camera">
+      <UniqueIdentifier>{43a581a4-11fc-49ea-9bdc-beb88f4b00f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Level">
+      <UniqueIdentifier>{9a2211d3-04ab-40ec-a6e4-5469629e9724}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Player">
+      <UniqueIdentifier>{6cbaa87b-c2d9-4a79-9851-51046ac6ee30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Source">
+      <UniqueIdentifier>{a6af4cb2-a384-41d8-a03b-eea9f70b97d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utility">
+      <UniqueIdentifier>{31b2aa89-f165-43c4-85cc-64c5ee392d0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ECS">
+      <UniqueIdentifier>{107e6eaf-c77e-468a-a97d-1733d0b996c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ECS\Entity">
+      <UniqueIdentifier>{cc7baec1-c24d-4052-adf2-c817f8e78beb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ECS\Component">
+      <UniqueIdentifier>{ab088c32-8a4f-4234-9125-7fec29b4dcb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ECS\System">
+      <UniqueIdentifier>{0f24735e-cc4d-4a0f-b89b-cb685b9f14b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ECS\Scene">
+      <UniqueIdentifier>{bce1075c-2cc9-4f49-9420-e1883a7c8058}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>Source Files\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Source Files\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>Source Files\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>Source Files\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="IsometricEngine.cpp">
+      <Filter>Source Files\IsometricEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="DeltaTimer.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>Source Files\ECS\Component</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\Desktop\FEngine\Camera.h">
+      <Filter>Source Files\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\FEngine\Level.h">
+      <Filter>Source Files\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\FEngine\Player.h">
+      <Filter>Source Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Source.h">
+      <Filter>Source Files\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\FEngine\Texture.h">
+      <Filter>Source Files\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\FEngine\TextureManager.h">
+      <Filter>Source Files\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\FEngine\Tile.h">
+      <Filter>Source Files\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="IsometricEngine.h">
+      <Filter>Source Files\IsometricEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="DeltaTimer.h">
+      <Filter>Source Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Source Files\ECS\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>Source Files\ECS\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="System.h">
+      <Filter>Source Files\ECS\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Source Files\ECS\Scene</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

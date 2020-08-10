@@ -1,0 +1,34 @@
+
+
+ <level width="5" height="5">
+   <tileset path="res/xml/tileset.xml" /> 
+    <tile x="0" y="0" baseid="0" walkable="true" /> 
+    <tile x="1" y="0" baseid="0" walkable="true" /> 
+    <tile x="2" y="0" baseid="5" walkable="false" /> 
+    <tile x="3" y="0" baseid="5" walkable="false" /> 
+    <tile x="4" y="0" baseid="5" walkable="false" /> 
+    <tile x="0" y="1" baseid="0" walkable="true" /> 
+    <tile x="1" y="1" baseid="0" walkable="true" /> 
+    <tile x="2" y="1" baseid="5" walkable="false" /> 
+    <tile x="3" y="1" baseid="5" walkable="false" /> 
+    <tile x="4" y="1" baseid="5" walkable="false" /> 
+    <tile x="0" y="2" baseid="0" walkable="true" /> 
+    <tile x="1" y="2" baseid="0" walkable="true" /> 
+    <tile x="2" y="2" baseid="5" walkable="false" /> 
+    <tile x="3" y="2" baseid="5" walkable="false" /> 
+    <tile x="4" y="2" baseid="5" walkable="false" /> 
+    <tile x="0" y="3" baseid="0" walkable="true" /> 
+    <tile x="1" y="3" baseid="0" walkable="true" /> 
+    <tile x="2" y="3" baseid="5" walkable="false" /> 
+    <tile x="3" y="3" baseid="5" walkable="false" /> 
+    <tile x="4" y="3" baseid="5" walkable="false" /> 
+    <tile x="0" y="4" baseid="0" walkable="true" /> 
+    <tile x="1" y="4" baseid="0" walkable="true" /> 
+    <tile x="2" y="4" baseid="5" walkable="false" /> 
+    <tile x="3" y="4" baseid="5" walkable="false" /> 
+    <tile x="4" y="4" baseid="5" walkable="false" /> 
+
+    <player path="res/xml/player.xml" x="0" y="0" baseid="10" />
+</level>
+
+ 
